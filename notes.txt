@@ -1,0 +1,22 @@
+to ceate a project
+1. go to the new folder
+2. type: yo aspnetcore-spa
+	a. Angular
+	b. unit test: N
+
+
+to set my machine to development
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments
+1. commandline $Env:ASPNETCORE_ENVIRONMENT = "Development"
+
+
+1. Also Install DotNetWatch to keep an eye on code that changes in the C# side of things that webPack cannot catch
+https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tools
+2. In vega.csproj paste 
+<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
+  </ItemGroup>
+3. save
+4. 'dotnet restore' - This will get the new package in the csproj file
+5. 'dotnet watch restore'
