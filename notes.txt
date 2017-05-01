@@ -59,7 +59,7 @@ dotnet restore
 dotnet ef migrations add InitialModel
 
 dotnet ef migrations remove  -- will remove the last migration that was now applied to the db
-dotnet ef database update
+dotnet ef database update 0 -- will remove the last migration that was applied to the db
 
 keys:
 CTRL + .  - add using statements to the top
