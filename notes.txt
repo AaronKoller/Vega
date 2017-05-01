@@ -15,6 +15,9 @@ Install NPM  (templates
 npm install -g yo
 npm install -g yo generator-aspnetcore-spa
 
+Automapper:
+dotnet add package Automapper
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 1.2.0
 
 to ceate a project
 1. go to the new folder
@@ -38,6 +41,8 @@ https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tool
 3. save
 4. 'dotnet restore' - This will get the new package in the csproj file
 5. 'dotnet watch restore'
+
+6. 'dotnet watch run' Run normally
 
 Install Entity Framework from VS Code terminal
 1. dotnet add Microsoft.EntityFrameworkCore.SqlServer  (from VS Studio)
