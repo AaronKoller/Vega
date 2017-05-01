@@ -47,6 +47,8 @@ Temporary Items
 .apdisk
 
 # Windows Directories
+bin/
+obj/
 bin\
 obj\
-\bin\
+

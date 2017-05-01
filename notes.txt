@@ -58,8 +58,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet restore
 dotnet ef migrations add InitialModel
 
-remove-migration  -- will remove the last migration that was now applied to the db
-
+dotnet ef migrations remove  -- will remove the last migration that was now applied to the db
+dotnet ef database update
 
 keys:
 CTRL + .  - add using statements to the top
