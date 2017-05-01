@@ -52,4 +52,5 @@ obj/
 bin\
 obj\
 Vega.dll
+*.dll
 
