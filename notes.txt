@@ -62,4 +62,4 @@ dotnet ef migrations remove  -- will remove the last migration that was now appl
 dotnet ef database update 0 -- will remove the last migration that was applied to the db
 
 keys:
-CTRL + .  - add using statements to the top
+CTRL + .  - add using statements to the top 

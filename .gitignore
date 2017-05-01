@@ -49,8 +49,4 @@ Temporary Items
 # Windows Directories
 bin/
 obj/
-bin\
-obj\
 Vega.dll
-*.dll
-
