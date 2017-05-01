@@ -16,7 +16,7 @@ namespace Vega.Controllers
             this.context = context;
 
         }
-        [HttpGet("/api/makes")]
+        [HttpGet("/api/makes1")]
         public async Task<IEnumerable<Make>> GetMakes()
         {
             return await context.Makes.Include(m => m.Models).ToListAsync();
