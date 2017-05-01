@@ -63,3 +63,9 @@ dotnet ef database update 0 -- will remove the last migration that was applied t
 
 keys:
 CTRL + .  - add using statements to the top 
+
+
+github
+
+To delete a file from the repo
+git rm --cached obj\Debug\netcoreapp1.1\Vega.dll

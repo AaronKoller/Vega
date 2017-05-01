@@ -1,10 +1,6 @@
 # Windows Directories
 bin/*
 obj/*
-bin\*
-obj\*
-Vega.dll
-
 
 # Windows image file caches
 Thumbs.db
