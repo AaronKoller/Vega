@@ -1,3 +1,21 @@
+1. SETUP environment
+Extensions:
+CTRL+SHIFT+P 'Install ext'  ==> Install extensions
+angula v2 typescript - John Papa
+ASP.Net Helper - schneiderpat
+Auto Import - Steoates
+Beautify - HookyQR
+C# - Microsoft
+C# Extensions - jchannon
+Docker - Microsoft
+Mssql - Microsoft
+Rest Client - Huachao Mao
+
+Install NPM  (templates
+npm install -g yo
+npm install -g yo generator-aspnetcore-spa
+
+
 to ceate a project
 1. go to the new folder
 2. type: yo aspnetcore-spa
@@ -24,7 +42,7 @@ https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tool
 Install Entity Framework from VS Code terminal
 1. dotnet add Microsoft.EntityFrameworkCore.SqlServer  (from VS Studio)
 
-1.   Add EntityFramework CLI
+1. Add EntityFramework CLI
 2. IN the .csproj
 <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameWorkCore.Tools.DotNet" Version="1.0.0" />
@@ -34,6 +52,13 @@ Install Entity Framework from VS Code terminal
 5. dotnet ef migrations --help (optional)
 6. dotnet ef migrations --help (optional)
 
+
+Ef Create migrations
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet restore
+dotnet ef migrations add InitialModel
+
+remove-migration  -- will remove the last migration that was now applied to the db
 
 
 keys:
