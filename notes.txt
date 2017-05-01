@@ -20,3 +20,21 @@ https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tool
 3. save
 4. 'dotnet restore' - This will get the new package in the csproj file
 5. 'dotnet watch restore'
+
+Install Entity Framework from VS Code terminal
+1. dotnet add Microsoft.EntityFrameworkCore.SqlServer  (from VS Studio)
+
+1.   Add EntityFramework CLI
+2. IN the .csproj
+<ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameWorkCore.Tools.DotNet" Version="1.0.0" />
+</ItemGroup>
+3. 'DotNet restore'
+4. after install 'dotnet ef' (optional)
+5. dotnet ef migrations --help (optional)
+6. dotnet ef migrations --help (optional)
+
+
+
+keys:
+CTRL + .  - add using statements to the top

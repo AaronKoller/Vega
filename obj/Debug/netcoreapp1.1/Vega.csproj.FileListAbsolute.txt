@@ -6,3 +6,4 @@ D:\Vega\bin\Debug\netcoreapp1.1\Vega.pdb
 D:\Vega\obj\Debug\netcoreapp1.1\Vega.AssemblyInfo.cs
 D:\Vega\obj\Debug\netcoreapp1.1\Vega.dll
 D:\Vega\obj\Debug\netcoreapp1.1\Vega.pdb
+D:\Vega\obj\Debug\netcoreapp1.1\Vega.csprojResolveAssemblyReference.cache
