@@ -62,9 +62,11 @@ Ef Create migrations
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet restore
 dotnet ef migrations add InitialModel
+dotnet ef migrations add SeedDatabase
 
 dotnet ef migrations remove  -- will remove the last migration that was now applied to the db
-dotnet ef database update 0 -- will remove the last migration that was applied to the db
+dotnet ef database update 0 -- will initialize the database
+dotnet ef database update -- this will execute the remaining migrations
 
 keys:
 CTRL + .  - add using statements to the top 
@@ -73,4 +75,4 @@ CTRL + .  - add using statements to the top
 github
 
 To delete a file from the repo
-git rm --cached obj\Debug\netcoreapp1.1\Vega.dll
+git rm --cached obj\Debug\netcoreapp1.1\vega.dll

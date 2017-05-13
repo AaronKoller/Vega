@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Vega.Models;
+using vega.Models;
 
-namespace Vega.Controllers.Resources
+namespace vega.Controllers.Resources
 {
     public class MakeResource
     {

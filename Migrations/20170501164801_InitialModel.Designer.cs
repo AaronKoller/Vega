@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Vega.Persistence;
+using vega.Persistence;
 
-namespace Vega.Migrations
+namespace vega.Migrations
 {
     [DbContext(typeof(VegaDbContext))]
     [Migration("20170501164801_InitialModel")]
@@ -17,7 +17,7 @@ namespace Vega.Migrations
                 .HasAnnotation("ProductVersion", "1.1.1")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Vega.Models.Make", b =>
+            modelBuilder.Entity("vega.Models.Make", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -29,7 +29,7 @@ namespace Vega.Migrations
                     b.ToTable("Makes");
                 });
 
-            modelBuilder.Entity("Vega.Models.Model", b =>
+            modelBuilder.Entity("vega.Models.Model", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -45,9 +45,9 @@ namespace Vega.Migrations
                     b.ToTable("Model");
                 });
 
-            modelBuilder.Entity("Vega.Models.Model", b =>
+            modelBuilder.Entity("vega.Models.Model", b =>
                 {
-                    b.HasOne("Vega.Models.Make", "Make")
+                    b.HasOne("vega.Models.Make", "Make")
                         .WithMany("Models")
                         .HasForeignKey("MakeId")
                         .OnDelete(DeleteBehavior.Cascade);
