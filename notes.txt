@@ -1,3 +1,5 @@
+https://github.com/mosh-hamedani/vega
+
 1. SETUP environment
 Extensions:
 CTRL+SHIFT+P 'Install ext'  ==> Install extensions
@@ -90,3 +92,6 @@ npm install @angular/cli@latest --save-dev
 
 To generate an angular component
 ng g component vehicle-form
+
+bootstrap glyph icons
+getbootstrap.com/components
