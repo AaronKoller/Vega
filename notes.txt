@@ -76,3 +76,17 @@ github
 
 To delete a file from the repo
 git rm --cached obj\Debug\netcoreapp1.1\vega.dll
+
+
+CHapter 3 - Angular
+
+Install the angular CLI tool
+npm install @angular/cli@latest -g
+
+INstall a sample project
+ng new hello-world
+
+npm install @angular/cli@latest --save-dev
+
+To generate an angular component
+ng g component vehicle-form
