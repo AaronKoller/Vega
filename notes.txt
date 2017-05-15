@@ -106,3 +106,7 @@ I did have the /dist/ folder and there were no run time errors, but the followin
 3. dotnet watch run
 
 You should see the changes in http://localhost:5000/home after that.
+
+
+36 Creating a service
+ng g service make
