@@ -2,6 +2,7 @@
 bin/*
 obj/*
 node_modules/*
+wwwroot/dist/*
 
 # Windows image file caches
 Thumbs.db

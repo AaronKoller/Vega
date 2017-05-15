@@ -95,3 +95,14 @@ ng g component vehicle-form
 
 bootstrap glyph icons
 getbootstrap.com/components
+
+I had the same issue though I had to install webpack first.  As Moises mentioned, refer to 
+Video: 28. - Common RunTime Errors
+
+I did have the /dist/ folder and there were no run time errors, but the following steps worked for me.
+
+1. npm install webpack -g
+2. webpack --config webpack.config.vendor.js
+3. dotnet watch run
+
+You should see the changes in http://localhost:5000/home after that.
