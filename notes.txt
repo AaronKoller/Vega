@@ -78,6 +78,7 @@ github
 
 To delete a file from the repo
 git rm --cached obj\Debug\netcoreapp1.1\vega.dll
+git rm --cached ClientApp\dist\main-server.js
 
 
 CHapter 3 - Angular
