@@ -1,9 +1,19 @@
 https://github.com/mosh-hamedani/vega
 
+To run This
+1. clone from github
+2. VS Code console  'powershell.exe': 
+  a. $Env:ASPNETCORE_ENVIRONMENT = "Development"
+  b. dotnet restore
+  c. webpack --config webpack.config.vendor.js
+  d. dotnet run
+
+
+
 1. SETUP environment
 Extensions:
 CTRL+SHIFT+P 'Install ext'  ==> Install extensions
-angula v2 typescript - John Papa
+angular v2 typescript - John Papa
 ASP.Net Helper - schneiderpat
 Auto Import - Steoates
 Beautify - HookyQR

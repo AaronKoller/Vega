@@ -10272,16 +10272,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\vega\\vega.csproj",
-      "projectName": "vega",
-      "projectPath": "d:\\vega\\vega.csproj",
-      "outputPath": "d:\\vega\\obj\\",
+      "projectUniqueName": "D:\\Vega\\Vega.csproj",
+      "projectName": "Vega",
+      "projectPath": "D:\\Vega\\Vega.csproj",
+      "outputPath": "D:\\Vega\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/vega.dll": "d:\\vega\\bin\\placeholder\\netcoreapp1.1\\vega.dll"
+        "lib/netcoreapp1.1/Vega.dll": "D:\\Vega\\bin\\placeholder\\netcoreapp1.1\\Vega.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
