@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}/vega.csproj"
+                "${workspaceRoot}/Vega.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

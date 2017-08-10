@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace vega.Migrations
+namespace Vega.Migrations
 {
     public partial class InitialModel : Migration
     {

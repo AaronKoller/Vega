@@ -1,4 +1,4 @@
-https://github.com/mosh-hamedani/vega
+https://github.com/mosh-hamedani/Vega
 
 To run This
 1. clone from github
@@ -45,7 +45,7 @@ https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments
 
 1. Also Install DotNetWatch to keep an eye on code that changes in the C# side of things that webPack cannot catch
 https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tools
-2. In vega.csproj paste 
+2. In Vega.csproj paste 
 <Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk.Web">
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.0" />
@@ -87,7 +87,7 @@ CTRL + .  - add using statements to the top
 github
 
 To delete a file from the repo
-git rm --cached obj\Debug\netcoreapp1.1\vega.dll
+git rm --cached obj\Debug\netcoreapp1.1\Vega.dll
 git rm --cached ClientApp\dist\main-server.js
 
 
