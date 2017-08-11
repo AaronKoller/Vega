@@ -15,12 +15,9 @@ namespace Vega.Controllers
     }
 
     [HttpPost]
-    // public IActionResult CreateVehicle([FromBody] VehicleResource vehicleResource)
-    public IActionResult CreateVehicle([FromBody] Vehicle vehicle)
-    
+    public IActionResult CreateVehicle([FromBody] VehicleResource vehicleResource)
     {
-        // var vehicle = mapper.Map<VehicleResource, Vehicle>(vehicleResource);
-        // var vehicle = mapper.Map<VehicleResource, Vehicle>(vehicleResource);
+        var vehicle = mapper.Map<VehicleResource, Vehicle>(vehicleResource);
         return Ok(vehicle);
     }
   }
