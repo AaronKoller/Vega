@@ -4,7 +4,8 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Vega.Controllers.Resources;
-using Vega.Models;
+using Vega.Core.Models;
+using Vega.Core;
 using Vega.Persistence;
 
 namespace Vega.Controllers
@@ -56,6 +57,7 @@ namespace Vega.Controllers
 
             await UnitOfWork.CompleteAsync();
 
+            vehicle =  await repository.GetVehicle(vehicle.Id);
             var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
             return Ok(result);
         }
