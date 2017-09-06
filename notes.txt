@@ -126,3 +126,5 @@ ng g service make
 84 npm install ng2-toasty@2.5.0 --save
 webpack --config webpack.config.vendor.js
 webpack
+
+87  https://sentry.io
