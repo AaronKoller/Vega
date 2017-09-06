@@ -121,3 +121,8 @@ You should see the changes in http://localhost:5000/home after that.
 
 36 Creating a service
 ng g service make
+
+
+84 npm install ng2-toasty@2.5.0 --save
+webpack --config webpack.config.vendor.js
+webpack
